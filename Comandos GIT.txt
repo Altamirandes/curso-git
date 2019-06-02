@@ -1,0 +1,27 @@
+# Cria arquivo .gitignore
+-> baixa da internet o texto e coloca em: .gitignore na pasta do progeto
+
+# Cria GIT para Projetos
+$ git init
+
+# Define Usuario e Email no GIT
+$ git config --global user.name "Miranda"
+$ git config --global user.email "miranda@4usolutions.com.br"
+
+# Prepara Projeto para COMMIT
+$ git add .
+
+# Mostra Status de Projetos
+$ git status
+
+# Efetua COMMIT em projetos
+$ git commit -m "Projeto iniciado, utilizando o controle de versao"
+
+# Verifica LOG de COMMIT
+$ git log
+ou
+$ git log --oneline
+
+# Volta Situação ATUAL (Descarta todas modificações)
+$ git clean -df
+$ git checkout -- . 
