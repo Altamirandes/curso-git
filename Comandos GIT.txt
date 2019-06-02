@@ -24,4 +24,17 @@ $ git log --oneline
 
 # Volta Situação ATUAL (Descarta todas modificações)
 $ git clean -df
-$ git checkout -- . 
+$ git checkout -- .
+
+# Volta Situação Anterior ao COMMIT (Mantendo as Alterações nos Arquivos)
+$ git reset --soft HEAD~1
+
+# Volta Situação Anterior ao COMMIT (Sem Manter as Alterações nos Arquivos)
+$ git reset --hard HEAD~1
+
+# Voltar para uma versão, sem alterar a versão ATUAL
+$ git checkout "Código do commit em HEX"
+
+# Retornar para a versão ATUAL
+$ git checkout "Nome do branch (master)"
+
